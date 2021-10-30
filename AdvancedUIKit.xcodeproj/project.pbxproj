@@ -16,6 +16,18 @@
 		4D14A9D9272DD0FD00B66376 /* AdvancedUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14A9D8272DD0FD00B66376 /* AdvancedUIKitTests.swift */; };
 		4D14A9E3272DD0FD00B66376 /* AdvancedUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14A9E2272DD0FD00B66376 /* AdvancedUIKitUITests.swift */; };
 		4D14A9E5272DD0FD00B66376 /* AdvancedUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14A9E4272DD0FD00B66376 /* AdvancedUIKitUITestsLaunchTests.swift */; };
+		4D14AA0D272DD2D500B66376 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA0C272DD2D500B66376 /* AppContainer.swift */; };
+		4D14AA15272DD40700B66376 /* AnimationTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA14272DD40700B66376 /* AnimationTutorialView.swift */; };
+		4D14AA18272DD41A00B66376 /* AnimationTutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA17272DD41A00B66376 /* AnimationTutorialVC.swift */; };
+		4D14AA27272DD46100B66376 /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA24272DD46100B66376 /* CGPointExtensions.swift */; };
+		4D14AA28272DD46100B66376 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA25272DD46100B66376 /* UIViewExtensions.swift */; };
+		4D14AA29272DD46100B66376 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA26272DD46100B66376 /* UIImageExtension.swift */; };
+		4D14AA2C272DD48300B66376 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA2A272DD48300B66376 /* AssetView.swift */; };
+		4D14AA2D272DD48300B66376 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA2B272DD48300B66376 /* Asset.swift */; };
+		4D14AA30272DD4A100B66376 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA2F272DD4A100B66376 /* BaseViewController.swift */; };
+		4D14AA35272DD4BC00B66376 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA32272DD4BC00B66376 /* VideoPlayer.swift */; };
+		4D14AA36272DD4BC00B66376 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA33272DD4BC00B66376 /* Media.swift */; };
+		4D14AA37272DD4BC00B66376 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14AA34272DD4BC00B66376 /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		4D14A9DE272DD0FD00B66376 /* AdvancedUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D14A9E2272DD0FD00B66376 /* AdvancedUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedUIKitUITests.swift; sourceTree = "<group>"; };
 		4D14A9E4272DD0FD00B66376 /* AdvancedUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D14AA0C272DD2D500B66376 /* AppContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		4D14AA14272DD40700B66376 /* AnimationTutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTutorialView.swift; sourceTree = "<group>"; };
+		4D14AA17272DD41A00B66376 /* AnimationTutorialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTutorialVC.swift; sourceTree = "<group>"; };
+		4D14AA24272DD46100B66376 /* CGPointExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtensions.swift; sourceTree = "<group>"; };
+		4D14AA25272DD46100B66376 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		4D14AA26272DD46100B66376 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		4D14AA2A272DD48300B66376 /* AssetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		4D14AA2B272DD48300B66376 /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		4D14AA2F272DD4A100B66376 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4D14AA32272DD4BC00B66376 /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		4D14AA33272DD4BC00B66376 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		4D14AA34272DD4BC00B66376 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +123,11 @@
 		4D14A9C0272DD0FB00B66376 /* AdvancedUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				4D14A9C1272DD0FB00B66376 /* AppDelegate.swift */,
-				4D14A9C3272DD0FB00B66376 /* SceneDelegate.swift */,
+				4D14AA0B272DD29500B66376 /* Application */,
+				4D14AA11272DD3D000B66376 /* Scenes */,
+				4D14AA19272DD42600B66376 /* View */,
+				4D14AA2E272DD48F00B66376 /* Controller */,
+				4D14AA31272DD4A900B66376 /* Media */,
 				4D14A9C5272DD0FB00B66376 /* ViewController.swift */,
 				4D14A9C7272DD0FB00B66376 /* Main.storyboard */,
 				4D14A9CA272DD0FD00B66376 /* Assets.xcassets */,
@@ -125,6 +152,96 @@
 				4D14A9E4272DD0FD00B66376 /* AdvancedUIKitUITestsLaunchTests.swift */,
 			);
 			path = AdvancedUIKitUITests;
+			sourceTree = "<group>";
+		};
+		4D14AA0B272DD29500B66376 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4D14A9C1272DD0FB00B66376 /* AppDelegate.swift */,
+				4D14AA0C272DD2D500B66376 /* AppContainer.swift */,
+				4D14A9C3272DD0FB00B66376 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4D14AA11272DD3D000B66376 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA12272DD3F400B66376 /* AnimationTutorial */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4D14AA12272DD3F400B66376 /* AnimationTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA16272DD40E00B66376 /* Controller */,
+				4D14AA13272DD3FD00B66376 /* View */,
+			);
+			path = AnimationTutorial;
+			sourceTree = "<group>";
+		};
+		4D14AA13272DD3FD00B66376 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA14272DD40700B66376 /* AnimationTutorialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D14AA16272DD40E00B66376 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA17272DD41A00B66376 /* AnimationTutorialVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D14AA19272DD42600B66376 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA1A272DD43100B66376 /* Assets */,
+				4D14AA23272DD44800B66376 /* Extensions */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D14AA1A272DD43100B66376 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA2B272DD48300B66376 /* Asset.swift */,
+				4D14AA2A272DD48300B66376 /* AssetView.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4D14AA23272DD44800B66376 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA24272DD46100B66376 /* CGPointExtensions.swift */,
+				4D14AA26272DD46100B66376 /* UIImageExtension.swift */,
+				4D14AA25272DD46100B66376 /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D14AA2E272DD48F00B66376 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA2F272DD4A100B66376 /* BaseViewController.swift */,
+			);
+			name = Controller;
+			path = View/Controller;
+			sourceTree = "<group>";
+		};
+		4D14AA31272DD4A900B66376 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				4D14AA34272DD4BC00B66376 /* AudioPlayer.swift */,
+				4D14AA33272DD4BC00B66376 /* Media.swift */,
+				4D14AA32272DD4BC00B66376 /* VideoPlayer.swift */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +375,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D14AA15272DD40700B66376 /* AnimationTutorialView.swift in Sources */,
 				4D14A9C6272DD0FB00B66376 /* ViewController.swift in Sources */,
+				4D14AA37272DD4BC00B66376 /* AudioPlayer.swift in Sources */,
+				4D14AA36272DD4BC00B66376 /* Media.swift in Sources */,
+				4D14AA29272DD46100B66376 /* UIImageExtension.swift in Sources */,
+				4D14AA35272DD4BC00B66376 /* VideoPlayer.swift in Sources */,
+				4D14AA2D272DD48300B66376 /* Asset.swift in Sources */,
+				4D14AA0D272DD2D500B66376 /* AppContainer.swift in Sources */,
+				4D14AA30272DD4A100B66376 /* BaseViewController.swift in Sources */,
+				4D14AA18272DD41A00B66376 /* AnimationTutorialVC.swift in Sources */,
+				4D14AA28272DD46100B66376 /* UIViewExtensions.swift in Sources */,
 				4D14A9C2272DD0FB00B66376 /* AppDelegate.swift in Sources */,
+				4D14AA27272DD46100B66376 /* CGPointExtensions.swift in Sources */,
 				4D14A9C4272DD0FB00B66376 /* SceneDelegate.swift in Sources */,
+				4D14AA2C272DD48300B66376 /* AssetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
