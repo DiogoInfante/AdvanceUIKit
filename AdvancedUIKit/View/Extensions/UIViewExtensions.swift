@@ -5,8 +5,6 @@
 //  Created by Diogo Infante on 21/04/21.
 //
 import UIKit
-import Foundation
-
     
 // MARK: General Extensions
 extension UIView {
