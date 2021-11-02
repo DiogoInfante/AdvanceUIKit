@@ -8,9 +8,13 @@ This project contains convenient solutions for UIKit apps. It's a product of an 
 
 Constructing an App Container is a classical way to manage view controller creations. It's a convenient form to get rid of the storyboards and programmatically instantiate VCs. It also serves wall to dependencies management and inits parameters.
  
+ ![Image of AppContainer](Resources/AppContainer.png)
+ 
 2. **BaseViewController**:
 
 BaseViewController: A standard view controller that inherits from UIViewController. It contains default parameters of interest that will be useful to all VCs. Every other view controller should conform to it.
+
+![Image of BaseViewController](Resources/BaseVC.png)
 
 ## UIKit
 
@@ -20,6 +24,9 @@ Adding assets to a view is something recurrent on UIKit apps. There are some app
 
 Important considerations:
 It's vital to keep the assets images behind the custom view, especially if you have interactions. Also, remember that user interaction on UIImageView is false by default. Notice that AssetView sets it true on the initializer. 
+
+![Image of AssetView](Resources/Asset.png)
+![Image of AssetView](Resources/AssetView.png)
 
 2. **I divided the extensions into the following sections**:
 
